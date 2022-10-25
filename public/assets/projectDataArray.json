@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "title": "Berry Tok",
+      "titleSkills": "NextJS / Sanity / React",
+      "projectOverview": "Using Sanity.io as the backend, this project is meant to be a replication of Tik Tok. With the help of NextJS, this project features the ability to login with Google authentication, post your own videos, search other users, like other users posts, and even show your own likes/videos on your own profile.",
+      "technologies": ["React", "NextJS", "Sanity"],
+      "demo": "https://berry-tok.netlify.app/",
+      "github": "https://github.com/Sciphr/Tik-Tok-clone"
+    },
+    {
+      "title": "Berry Shop",
+      "titleSkills": "React / MongoDB / Node / Express",
+      "projectOverview": "This is a fully functioning, built-from-scratch E-commerce website. This single page application has the ability to search for products (also taking advantage of pagination), purchase products using Paypal, leave reviews, view your own order history, AND even has an ADMIN panel if you are an administrator which allows you to view all users/orders/products, and even edit all of them.",
+      "technologies": [
+        "React",
+        "BCrypt/JSON Web Token",
+        "Mongoose",
+        "Express",
+        "Node",
+        "MongoDB"
+      ],
+      "demo": "https://berryshopapp.herokuapp.com/",
+      "github": "https://github.com/Sciphr/MERN-Ecommerce-Test-App"
+    },
+    {
+      "title": "Github Profile Search",
+      "titleSkills": "React",
+      "projectOverview": "This very simple project is a visually appealing way to search for Github profiles. It will show all of their basic information, along with the typical stats that go along with a Github profile, and show the latest 10 repositories for that user.",
+      "technologies": [
+        "React",
+        "React Router",
+        "ContextAPI",
+        "Tailwind",
+        "DaisyUI"
+      ],
+      "demo": "https://berry-github-finder.netlify.app/",
+      "github": "https://github.com/Sciphr/Berry-Github-Finder"
+    },
+    {
+      "title": "Job Tracker",
+      "titleSkills": "React / MongoDB / Node / Express",
+      "projectOverview": "Built from the ground up, this project is an application that allows users to track job applications as they search for employment. You can create your own profile, create your own nicely formatted job applications, view them, and even get graphs to show your stats as you go through your job search journey.",
+      "technologies": [
+        "React",
+        "MongoDB",
+        "Node",
+        "Express",
+        "Mongoose",
+        "Redux",
+        "React Router",
+        "BCrypt/JSON Web Token"
+      ],
+      "demo": "https://berry-job-tracker.herokuapp.com/",
+      "github": "https://github.com/Sciphr/Job-Tracker"
+    }
+  ]
+}
