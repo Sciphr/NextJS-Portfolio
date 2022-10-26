@@ -2,49 +2,56 @@ import React from 'react';
 import SkillItem from './SkillItem';
 
 import htmlSkill from '../public/assets/skills/html.png';
+import cssSkill from '../public/assets/skills/css.png';
+import firebaseSkill from '../public/assets/skills/firebase.png';
+import githubSkill from '../public/assets/skills/github1.png';
+import javascriptSkill from '../public/assets/skills/javascript.png';
+import mongoSkill from '../public/assets/skills/mongo.png';
+import nextSkill from '../public/assets/skills/nextjs.png';
+import nodeSkill from '../public/assets/skills/node.png';
+import reactSkill from '../public/assets/skills/react.png';
+import tailwindSkill from '../public/assets/skills/tailwind.png';
 
 const SkillsGrid = () => {
-  const photoPath = '/../public/assets/skills/';
-
   const data = [
     {
       path: htmlSkill,
       skill: 'html',
     },
     {
-      path: `${photoPath}css.png`,
+      path: cssSkill,
       skill: 'css',
     },
     {
-      path: `${photoPath}firebase.png`,
+      path: firebaseSkill,
       skill: 'firebase',
     },
     {
-      path: `${photoPath}github1.png`,
+      path: githubSkill,
       skill: 'github',
     },
     {
-      path: `${photoPath}javascript.png`,
+      path: javascriptSkill,
       skill: 'javascript',
     },
     {
-      path: `${photoPath}mongo.png`,
+      path: mongoSkill,
       skill: 'MongoDB',
     },
     {
-      path: `${photoPath}nextjs.png`,
+      path: nextSkill,
       skill: 'nextjs',
     },
     {
-      path: `${photoPath}node.png`,
+      path: nodeSkill,
       skill: 'node',
     },
     {
-      path: `${photoPath}react.png`,
+      path: reactSkill,
       skill: 'react',
     },
     {
-      path: `${photoPath}tailwind.png`,
+      path: tailwindSkill,
       skill: 'tailwind',
     },
   ];

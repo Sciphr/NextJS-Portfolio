@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import logo from '../public/assets/Berry Portfolio.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +16,6 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    console.log(router.asPath);
     if (
       router.asPath === '/githubsearch' ||
       router.asPath === '/berryshop' ||
@@ -59,7 +59,7 @@ const Navbar = () => {
         <Link href="/">
           <div>
             <Image
-              src="/../public/assets/Berry Portfolio.png"
+              src={logo}
               alt="logo"
               width="150"
               height="125"
@@ -112,8 +112,8 @@ const Navbar = () => {
               <Link href="/">
                 <div onClick={() => setNav(false)}>
                   <Image
-                    src="/../public/assets/Berry Portfolio.png"
-                    alt="porfolio image"
+                    src={logo}
+                    alt="logo image"
                     width="120"
                     height="100"
                     className="cursor-pointer"
