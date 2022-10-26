@@ -1,13 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
 import SkillItem from './SkillItem';
+
+import htmlSkill from '../public/assets/skills/html.png';
 
 const SkillsGrid = () => {
   const photoPath = '/../public/assets/skills/';
 
   const data = [
     {
-      path: `${photoPath}html.png`,
+      path: htmlSkill,
       skill: 'html',
     },
     {

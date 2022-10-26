@@ -127,7 +127,10 @@ const Contact = () => {
                     rows="9"
                   />
                 </div>
-                <button type="submit" className="w-full p-4 text-gray-100 mt-4">
+                <button
+                  type="submit"
+                  className="w-full p-4 text-gray-100 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff]"
+                >
                   Send Message
                 </button>
               </form>
