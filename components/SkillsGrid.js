@@ -59,11 +59,7 @@ const SkillsGrid = () => {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
       {data.map((item, index) => (
-        <SkillItem
-          path={data[index].path}
-          skill={data[index].skill}
-          key={index}
-        />
+        <SkillItem path={item.path} skill={item.skill} key={index} />
       ))}
     </div>
   );
