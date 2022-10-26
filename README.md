@@ -1,2 +1,2 @@
 Deployment Link: 
-https://jacob-berry-nextjs-portfolio.vercel.app/
+https://jacob-berry-nextjs-portfolio-sciphr.vercel.app/
